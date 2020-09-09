@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Sumar.models;
+
 namespace Sumar.Controllers
 {
     [Route("api/[controller]")]
@@ -22,13 +24,5 @@ namespace Sumar.Controllers
         }
     }
 
-    internal class Person
-    {
-        public Person()
-        {
-        }
 
-        public int PersonId { get; set; }
-        public string Name { get; set; }
-    }
 }
